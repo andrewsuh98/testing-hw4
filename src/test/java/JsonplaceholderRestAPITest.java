@@ -50,10 +50,6 @@ public class JsonplaceholderRestAPITest {
             String username = j.getString("["+i+"].username");
             String zipcode = j.getString("["+i+"].address.zipcode");
 
-            System.out.println(name);
-            System.out.println(username);
-            System.out.println(zipcode);
-
             if (name.equals("Ervin Howell") && username.equals("Antonette") && zipcode.equals("90566-7771")) {
                 contains = true;
             }
